@@ -1,9 +1,9 @@
-var pet,pet1,database,petImg,petImg2,petposition,foodN=20,game="wait",a,reference,milk,milk1;
+var pet,pet1,database,petImg,petImg2,petposition,foodN=20,game="wait",a,reference,milk,milk1,timeN,a=0;
 
 function preload(){
     petImg=loadAnimation("images/dogImg.png");
     petImg2=loadAnimation("images/dogImg1.png");
-    milk=loadAnimation("milk.png");
+    milk=loadImage("milk.png");
 }
 function setup(){
     createCanvas(1000,500);
