@@ -52,7 +52,9 @@ class Food{
             if(petposition != undefined && foodN<20){
                 reference.set(
                     {
-                        food:foodN+1
+                        food:foodN+1,
+                        time:timeN,
+                        time2:a
                     }
                 );
                 pet.changeAnimation("pet",petImg);
