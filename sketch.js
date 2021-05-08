@@ -3,7 +3,7 @@ var pet,pet1,database,petImg,petImg2,petposition,foodN=20,game="wait",a,referenc
 function preload(){
     petImg=loadAnimation("images/dogImg.png");
     petImg2=loadAnimation("images/dogImg1.png");
-    milk=loadImage("milk.png");
+    milk=loadImage("Milk.png");
 }
 function setup(){
     createCanvas(1000,500);
