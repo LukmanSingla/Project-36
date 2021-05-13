@@ -23,10 +23,10 @@ class Food{
         
         if(foodN==0){
             game="end";
-            text("Game Over Press space to continue",50,50);
+            text("Game Over Press space to continue",50,150);
             if(keyCode === 32){
                 game="play";
-                reference.set(
+                reference.update(
                     {
                         food:foodN+20
                     }
