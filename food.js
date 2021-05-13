@@ -23,7 +23,7 @@ class Food{
         
         if(foodN==0){
             game="end";
-            text("Game Over Press space to continue",50,150);
+            text("Game Over Press space to continue",50,200);
             if(keyCode === 32){
                 game="play";
                 reference.update(
